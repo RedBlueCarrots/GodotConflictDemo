@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cavckvllmrsc8"]
+[gd_scene load_steps=6 format=3 uid="uid://dsbp8obliepwr"]
 
 [ext_resource type="Texture2D" uid="uid://d1n42lkd85ddu" path="res://icon.svg" id="1_44gc5"]
 [ext_resource type="Script" uid="uid://cvfw43honwhjc" path="res://spin.gd" id="2_612pj"]
@@ -16,7 +16,7 @@ spread = 180.0
 initial_velocity_max = 200.0
 angular_velocity_min = -1.60933e-05
 angular_velocity_max = 1000.0
-gravity = Vector3(0, 98, 0)
+gravity = Vector3(0, 200, 0)
 scale_min = 0.0
 scale_max = 0.2
 color_ramp = SubResource("GradientTexture1D_612pj")
@@ -24,7 +24,7 @@ color_ramp = SubResource("GradientTexture1D_612pj")
 [node name="Node2D" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(237, 53)
+position = Vector2(78, 135)
 texture = ExtResource("1_44gc5")
 script = ExtResource("2_612pj")
 
